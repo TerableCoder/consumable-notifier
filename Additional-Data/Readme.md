@@ -1,4 +1,4 @@
-### Short overview of the default consumables which are currently added in the config file.
+### Short overview of the default abnormalities which are currently added in the config file.
 
 ---
 
