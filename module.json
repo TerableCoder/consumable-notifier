@@ -1,0 +1,16 @@
+{
+    "disableAutoUpdate": false,
+    "name": "Consumable Notifier",
+    "author": "Shalltearz",
+    "description": "Tera toolbox module which notifies you if your consumables are about to expire.",
+    "version": "1.0",
+    "options": {
+        "niceName": "Consumable Notifier",
+        "guiName": "Consumable Notifier",
+        "settingsVersion": 1.5,
+        "settingsFile": "config.json",
+        "settingsMigrator": "settings_migrator.js"
+    },
+    "servers": ["https://raw.githubusercontent.com/Tera-Shiraneko/consumable-notifier/master/"],
+    "supportUrl": "https://github.com/Tera-Shiraneko/consumable-notifier/issues"
+}
