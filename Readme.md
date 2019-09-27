@@ -36,7 +36,7 @@
 
 ---
 
-### Abnormalityinfo
+### Abnormality Infornmation
 - Debug command listed above.
 - [Tera Damage Meter Data => Abnormalities](https://github.com/neowutran/TeraDpsMeterData/tree/master/hotdot)
 
