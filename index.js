@@ -184,8 +184,8 @@ module.exports = function Consumable_Notifier(mod) {
         });
     };
 
-    const send_message = (message, info) => {
-        if (config.consumable_list.includes(info)) {
+    const send_message = (message, info_id) => {
+        if (config.consumable_list.includes(info_id)) {
             if (config.private_message) {
                 command.message(message);
             }
@@ -198,7 +198,7 @@ module.exports = function Consumable_Notifier(mod) {
                 });
             }
         } else {
-            const consumable_index = current_consumables.indexOf(info);
+            const consumable_index = current_consumables.indexOf(info_id);
             current_consumables.splice(consumable_index, 1);
         }
     };
