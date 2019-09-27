@@ -105,12 +105,12 @@ module.exports = function Consumable_Notifier(mod) {
         start_searching();
     });
 
-    mod.game.on('leave_game', () => {
-        stop_searching();
-    });
-
     mod.game.me.on('die', () => {
         inactive_abnormalities();
+    });
+
+    mod.game.on('leave_game', () => {
+        stop_searching();
     });
 
     const start_searching = () => {
