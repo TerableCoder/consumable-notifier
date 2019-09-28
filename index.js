@@ -38,7 +38,7 @@ module.exports = function Notifyconsumexpiry(mod) {
     })
     
     function sendMessage(msg){
-        command.message(message);
+        mod.command.message(message);
         mod.send('S_DUNGEON_EVENT_MESSAGE', 2, {
             type: 42, // 42 Blue Shiny Text, 31 Normal Text
             chat: false, 
